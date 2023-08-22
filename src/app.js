@@ -13,9 +13,9 @@ const publicPath = path.join(__dirname, 'public');
  app.use(express.static(publicPath));
 
 //Sistema de rutas
-// const mainRoutes = require("./routes/main.js");
+ const mainRoutes = require("./routes/main.js");
 
-// app.use('/', mainRoutes);
+ app.use('/', mainRoutes);
 
 
 const port = process.env.PORT || 3000;
