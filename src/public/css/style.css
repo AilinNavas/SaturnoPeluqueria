@@ -392,7 +392,8 @@ footer {
 }
 
 .about-image:hover img {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
+  transform: rotateY('angle');
 }
 
 .about-content {
@@ -484,6 +485,7 @@ transition: all 0.25s;
   nav ul li a {
     font-size: 16px;
   }
+ 
   .container-about-us {
     padding: 0px;
   }
@@ -537,6 +539,12 @@ transition: all 0.25s;
     left: 0;
     margin-top: 25px;
   }
+  .carrousel-item {
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+  }
 
   .footerNav ul {
     flex-direction: column;
@@ -545,9 +553,7 @@ transition: all 0.25s;
   .footerNav ul li {
      width: 100%;
     text-align: center;
-    margin: 10px; 
-    
-   
+    margin: 10px;  
   }
 
   .heading {
