@@ -9,6 +9,115 @@
 body{
   background-color: #000000;
 }
+.form-container {
+  width: 70%;
+  background-color: #000000;
+  border: 2px solid transparent;
+  box-shadow: -5px 0 20px #5c06b2, 5px 0 20px #5c06b2, 0 5px 20px #5c06b2;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  position: relative;
+  left: 15%;
+ margin-top: 5%;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #717171;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #5c06b2;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #5c06b2;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-size: 19px;
+  font-family: inherit;
+  color: #fafafa;
+  font-weight: bold;
+  width: 40%;
+  background: #5c06b2;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #c1ff72;
+  border-color: #fafafa;
+  color: #000000;
+}
+
+
+
+
 .gallery-container {
   width: 100%;
   min-height: 50vh;
@@ -424,6 +533,7 @@ footer {
 }
 
 .about-content p {
+  padding: 15px 0 15px 0;
   font-size: 18px;
   line-height: 1.5;
   color: white;
@@ -433,16 +543,19 @@ footer {
   display: inline-block;
   padding: 10px 20px;
   background-color: #5c06b2;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 19px;
   text-decoration: none;
   border-radius: 25px;
   margin-top: 15px;
   transition: .3s ease;
+  border: 1px solid #414141;
 }
 
 .about-content .read-more:hover {
   background-color: #c1ff72;
+  border-color: #fafafa;
+  color: #000000;
 }
 .accordion-container input{
 display: none;
@@ -485,7 +598,7 @@ transition: all 0.25s;
 .main-accordion {
   max-width: 70vw;
   margin: 0 auto;
-   margin-bottom: 2em; 
+  margin-bottom: 4em; 
   margin-top: 2em;
   box-shadow: -5px 0 20px #5c06b2, 5px 0 20px #5c06b2, 0 5px 20px #5c06b2;
 

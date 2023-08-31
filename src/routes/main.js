@@ -6,6 +6,8 @@ const router = express.Router();
 
 router.get("/", mainController.index);
 router.get("/galeria", mainController.gallery);
+router.get("/contacto", mainController.contact);
+
 
 
 

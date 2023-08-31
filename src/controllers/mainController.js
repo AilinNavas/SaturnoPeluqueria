@@ -8,6 +8,9 @@ const controller = {
      gallery: (req, res) => {
         res.render(path.join(__dirname,'../views/gallery.ejs'))
     },
+    contact: (req, res) => {
+        res.render(path.join(__dirname,'../views/contactUs.ejs'))
+    },
     
     
 };
