@@ -1,36 +1,33 @@
 window.sr = ScrollReveal();
 
 sr.reveal('.navbar', {
- duration: 5000,
+ duration: 600,
  origin: 'bottom',
- distance: '-100px'
+ distance: '100px'
 });
 
 sr.reveal('.carrousel', {
-    duration: 5000,
+    duration: 600,
     origin: 'bottom',
-    distance: '-100px'
+    distance: '100px'
    });
 
    sr.reveal('.about-image', {
-    delay: 2000,
-    duration: 4000,
+    duration: 2000,
     origin: 'left',
-    distance: '800px',
+    distance: '400px',
    });
 
    sr.reveal('.about-content', {
-    delay: 2000,
-    duration: 4000,
+    duration: 2000,
     origin: 'right',
-    distance: '800px'
+    distance: '400px'
    });
 
    sr.reveal('.main-accordion', {
-    delay: 1000,
-    duration: 4000,
+    duration: 800,
     origin: 'left',
-    distance: '1000px'
+    distance: '200px'
    });
    
    sr.clean('.map');
