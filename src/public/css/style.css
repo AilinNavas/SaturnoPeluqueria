@@ -9,6 +9,10 @@
 body{
   background-color: #000000;
 }
+
+
+
+
 .heading-gallery{
   width: 100%;
   display: flex;
@@ -756,6 +760,7 @@ transition: all 0.25s;
     justify-content: center;
     padding: 50px 8%;
   }
+  
 }
 
 @media (max-width: 460px) {
@@ -869,4 +874,5 @@ transition: all 0.25s;
   .tab-container img {
     display:none;
   }
+  
 }

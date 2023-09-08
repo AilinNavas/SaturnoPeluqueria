@@ -11,6 +11,11 @@ const controller = {
     contact: (req, res) => {
         res.render(path.join(__dirname,'../views/contactUs.ejs'))
     },
+    // catalog: (req, res) => {
+    //     res.render(path.join(__dirname,'../views/catalog.ejs'))
+    // },
+    
+
     
     
 };

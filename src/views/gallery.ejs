@@ -6,109 +6,43 @@
     <body class="hidden">
         <div class="centrado" id="onload">
             <div class="lds-default">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <% for (let i=0; i < 12; i++) { %>
+                    <div></div>
+                    <% } %>
             </div>
         </div>
 
-
         <%- include('partials/navbar') %>
-
             <div id="particles-js"></div>
-
-
-
-            <div class="heading-gallery" >
-                <p class="pie"><em>Éstos son algunos de nuestros trabajos </em></p>
+            <div class="heading-gallery">
+                <p class="pie"><em>Éstos son algunos de nuestros trabajos</em></p>
             </div>
-
             <div class="gallery-container">
-
                 <div class="gallery">
-
-                    <a href="/img/gallery/mujer/2.png" data-lightbox="models" data-title="Reflejos Cobrizos">
-                        <img src="/img/gallery/mujer/2.png" alt="">
-                    </a>
-
-
-
-                    <a href="/img/gallery/mujer/3.png" data-lightbox="models" data-title="Balayage Plata">
-                        <img src="/img/gallery/mujer/3.png" alt="">
-                    </a>
-
-
-
-                    <a href="/img/gallery/hombre/4.png" data-lightbox="models" data-title="Plata raices Violetas">
-                        <img src="/img/gallery/hombre/4.png" alt="">
-                    </a>
-
-
-
-                    <a href="/img/gallery/mujer/5.png" data-lightbox="models" data-title="Low Fade Mujer">
-                        <img src="/img/gallery/mujer/5.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/mujer/6.png" data-lightbox="models" data-title="Tomboy Mujer ">
-                        <img src="/img/gallery/mujer/6.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/mujer/7.png" data-lightbox="models" data-title="Reflejos rubios">
-                        <img src="/img/gallery/mujer/7.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/hombre/8.png" data-lightbox="models" data-title="Azul fantasía">
-                        <img src="/img/gallery/hombre/8.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/mujer/9.png" data-lightbox="models" data-title="Mechón Fantasía">
-                        <img src="/img/gallery/mujer/9.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/mujer/11.png" data-lightbox="models" data-title="Iluminación">
-                        <img src="/img/gallery/mujer/11.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/mujer/12.png" data-lightbox="models" data-title="Reflejos">
-                        <img src="/img/gallery/mujer/12.png" alt="">
-                    </a>
-
-                    <a href="/img/gallery/mujer/16.png" data-lightbox="models" data-title="Rubio Global">
-                        <img src="/img/gallery/mujer/16.png"alt="">
-                    </a>
-
-                    <a href="/img/gallery/hombre/10.png" data-lightbox="models" data-title="Reflejos Plata">
-                        <img src="/img/gallery/hombre/10.png"  alt="">
-                    </a>
-
+                    <% for (let i=1 ; i <=12; i++) { %>
+                        <a href="/img/gallery/trabajos/<%= i %>.png" data-lightbox="models"
+                            data-title="">
+                            <img src="/img/gallery/trabajos/<%= i %>.png" alt="">
+                        </a>
+                        <% } %>
 
                 </div>
-
             </div>
-            <a href="https://wa.me/c/5493584903900?utm_medium=social&utm_source=heylink.me" class="btn-wsp" target="_blank">
+
+            <a href="https://wa.me/c/5493584903900?utm_medium=social&utm_source=heylink.me" class="btn-wsp"
+                target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
-            
-          <p class="pie"><em>Podés encontrar más resultados en nuestras redes sociales</em></p>
+
+            <p class="pie"><em>Podés encontrar más resultados en nuestras redes sociales</em></p>
 
             <%- include('partials/footer') %>
 
-
-
-                <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-                <script src="/js/app.js"></script>
-                <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-                <script src="/js/loader.js"></script>
-                <script src="/js/lightbox-plus-jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+            <script src="/js/app.js"></script>
+            <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+            <script src="/js/loader.js"></script>
+            <script src="/js/lightbox-plus-jquery.min.js"></script>
     </body>
 
 </html>

@@ -1,67 +1,9 @@
 <div class="carrousel">
     <div class="carrousel-items">
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto1.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto2.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto3.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto4.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto5.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto6.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto7.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto1.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto2.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto3.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto4.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto5.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto6.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto7.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto1.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto2.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto3.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto4.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto5.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto6.jpeg" width=300px height=300px alt="">
-        </div>
-        <div class="carrousel-item">
-            <img src="/img/carrousel/foto7.jpeg" width=300px height=300px alt="">
-        </div>
+        <% for (let i = 1; i <= 14; i++) { %>
+            <div class="carrousel-item">
+                <img src="/img/carrousel/foto<%= i %>.jpeg" width="300" height="300" alt="">
+            </div>
+        <% } %>
     </div>
 </div>
