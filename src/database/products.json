@@ -16,9 +16,9 @@
         "talle": "M",
         "descripción": "Llamativa y alegre",
         "precio": "$12.000",
-        "imagen1": "1.png",
+        "imagen1": "3.png",
         "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen3": "1.png"
     },
     {
         "id": 3,
@@ -26,8 +26,8 @@
         "talle": "XL, L",
         "descripción": "",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
+        "imagen1": "2.png",
+        "imagen2": "1.png" ,
         "imagen3": "3.png"
     },
     {
@@ -46,8 +46,8 @@
         "talle": "XL",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
+        "imagen1": "2.png",
+        "imagen2": "1.png" ,
         "imagen3": "3.png"
     },
     {
@@ -56,9 +56,9 @@
         "talle": "M, L",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
+        "imagen1": "3.png",
         "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen3": "1.png"
     },
     {
         "id": 7,
@@ -76,8 +76,8 @@
         "talle": "L",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
+        "imagen1": "2.png",
+        "imagen2": "1.png" ,
         "imagen3": "3.png"
     },
     {
@@ -86,9 +86,9 @@
         "talle": "M",
         "descripción": "Lorem Ipsum is simply dummy text of the printing ",
         "precio": "$12.000",
-        "imagen1": "1.png",
+        "imagen1": "3.png",
         "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen3": "1.png"
     },
     {
         "id": 10,
@@ -106,9 +106,9 @@
         "talle": "S",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
+        "imagen1": "3.png",
         "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen3": "1.png"
     },
     {
         "id": 12,
@@ -116,8 +116,8 @@
         "talle": "S",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
+        "imagen1": "2.png",
+        "imagen2": "1.png" ,
         "imagen3": "3.png"
     }
 ]
