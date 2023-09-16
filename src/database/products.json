@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "nombre": "Panal",
+        "talle": "L",
+        "descripción": "Calida y agradable",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Colores",
+        "talle": "M",
+        "descripción": "Llamativa y alegre",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Classic",
+        "talle": "XL, L",
+        "descripción": "",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Azulina",
+        "talle": "XS",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Boreal",
+        "talle": "XL",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Psicodelic",
+        "talle": "M, L",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Surreal",
+        "talle": "XL",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Arabescos",
+        "talle": "L",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Localizada",
+        "talle": "M",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing ",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 10,
+        "nombre": "ReinaMora",
+        "talle": "S",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Hawai",
+        "talle": "S",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Luna",
+        "talle": "S",
+        "descripción": "Lorem Ipsum is simply dummy text of the printing",
+        "precio": "$12.000",
+        "imagen1": "1.png",
+        "imagen2": "2.png" ,
+        "imagen3": "3.png"
+    }
+]

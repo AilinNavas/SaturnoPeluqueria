@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head') %>
+
+    <body class="hidden">
+        <div class="centrado" id="onload">
+            <div class="lds-default">
+                <% for (let i=0; i < 12; i++) { %>
+                    <div></div>
+                    <% } %>
+            </div>
+        </div>
+
+        <%- include('partials/navbar') %>
+
+            <div id="particles-js"></div>
+
+            <section class="contenedor">
+                <!-- Contenedor de elementos -->
+                <div class="contenedor-items">
+
+                    <% products.forEach((product)=> { %>
+                        <div class="item">
+                            <span class="titulo-item">
+                                <%= product.nombre %>
+                            </span>
+                            <a href="/<%= product.id %>"><img src="/img/catalog/<%= product.imagen1 %>" alt="" class="img-item"></a>
+                            <span class="precio-item">
+                                <%= product.precio %>
+                            </span>
+                            <button class="boton-item"> <a href="/<%= product.id %>"><i
+                                    class="fa-solid fa-arrow-right"></i>Ver detalle</a></button>
+                        </div>
+                        <% }) %>
+                </div>
+            </section>
+
+
+            <a href="https://wa.me/c/5493584903900?utm_medium=social&utm_source=heylink.me" class="btn-wsp"
+                target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <%- include('partials/footer') %>
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+                <script src="/js/app.js"></script>
+                <script src="/js/main.js"></script>
+                <script src="/js/catalog.js"></script>
+                <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+                <script src="/js/loader.js"></script>
+    </body>
+
+</html>
