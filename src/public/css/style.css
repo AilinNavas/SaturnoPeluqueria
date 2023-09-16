@@ -601,7 +601,8 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  line-height: 80px;
+  line-height: 80px; 
+  max-height: 10%;
   margin: 0 5px;
 }
 
@@ -656,6 +657,7 @@ footer {
 .footerContainer {
   width: 100%;
   padding: 70px 30px 20px;
+  margin: auto;
 }
 
 .socialIcons {
@@ -729,11 +731,6 @@ footer {
   border-radius: 3px;
 }
 
-/* .footerNav ul li a:hover {
-  opacity: 1;
-  color: #5c06b2;
-  background-color: black;
-} */
 
 .footerBottom {
   /* background: rgb(92,6,178); */
@@ -741,17 +738,19 @@ footer {
   background:black;
   padding: 20px;
   text-align: center;
+  margin: auto;
 }
 
 .footerBottom p {
   color: white;
+  margin: auto;
 }
 
 .designer {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  margin: 0 5px;
+   margin: 0 5px; 
 
 }
 
@@ -985,8 +984,9 @@ left: 10px;
 
 
 .product-info {
-    text-align: left;
+    /* text-align: left; */
     padding: 10px;
+    /* margin: auto;  */
 }
 
 
@@ -1035,32 +1035,50 @@ left: 10px;
   .ailin {
     text-align: center;
   }
+  #retro {
+  margin-right: 35%;
+  }
   
 }
 
 @media (max-width: 460px) {
 
+  #result {
+  z-index: 5;
+  }
+.footerNav {
+  display: none;
+}
+  footer {
+    text-align: center;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .socialIcons {
+    margin-bottom: 20px;
+  }
+
+  .footerNav ul li {
+    margin: 10px 0;
+  }
   .general{
     max-width: 45%;
     position: relative;
     margin-bottom: 10%;
     margin-top: 5%;
-    
- 
     font-size: 12px;
- 
- 
     letter-spacing: 1px;
-  
   }
-  h1{
-    text-align: left;
-    padding-left: 0;
+  .product-info {
+   display: flex;
+   flex-direction: column;
+   margin-right: 31%;
   }
-  p {
-    text-align: left;
-    padding-left: 0;
-  }
+ 
   .image-carousel {
     flex-direction: row;
     overflow-x: scroll;
@@ -1078,11 +1096,7 @@ left: 10px;
    justify-content: center;
    align-items: center;
   }
-  .product-info {
-    text-align: left;
   
-}
-
   .gallery-container {
     width: 100%;
     min-height: 50vh;
@@ -1103,7 +1117,7 @@ left: 10px;
     display: block;
   }
 
-  nav ul {
+   nav ul {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -1116,24 +1130,24 @@ left: 10px;
     transition: all .5s;
   }
 
-  nav ul li {
+   nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
    
   }
 
-  nav ul li a {
+   nav ul li a {
     font-size: 20px;
   }
 
-  li a:hover,
+ li a:hover,
   li a.active {
     /* background: none; */
     color: #ffffff;
   }
 
-  #check:checked ~ ul {
+ #check:checked ~ ul {
     left: 0;
     margin-top: 25px;
   }
