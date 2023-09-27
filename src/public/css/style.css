@@ -35,13 +35,13 @@ align-items: center;
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   
-
 }
 /* Imagen principal */
 .main-image img {
   max-width: 100%;
   height: auto;
    /* border: 3px solid #fefefe;  */
+
  
 }
 
@@ -162,13 +162,14 @@ padding-bottom:5%;
 
 .contenedor{
   max-width: 90vw;
-  padding: 10px;
+  padding: 20px;
   /* margin: 20auto; */
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
   margin-left: 4%;
+  margin-bottom: 30px;
   /* oculto lo que queda fuera del .contenedor */
   contain: paint;
 }
@@ -1043,6 +1044,7 @@ left: 10px;
 
 @media (max-width: 460px) {
 
+
   #result {
   z-index: 5;
   }
@@ -1179,6 +1181,7 @@ left: 10px;
   .heading p {
     font-size: 17px;
     margin-bottom: 0px;
+    text-align: center;
   }
 
   .container-about-us {
@@ -1198,6 +1201,7 @@ left: 10px;
   .about-content p {
     padding: 0px;
     font-size: 16px;
+    text-align: left;
   }
 
   .about-content .read-more {

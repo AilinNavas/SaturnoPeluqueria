@@ -5,60 +5,60 @@
         "talle": "L",
         "descripción": "Calida y agradable",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen1": "panal1.png",
+        "imagen2": "panal2.png" ,
+        "imagen3": "panal3.png"
         
     },
     {
         "id": 2,
-        "nombre": "Colores",
+        "nombre": "Playera",
         "talle": "M",
         "descripción": "Llamativa y alegre",
         "precio": "$12.000",
-        "imagen1": "3.png",
-        "imagen2": "2.png" ,
-        "imagen3": "1.png"
+        "imagen1": "playera1.png",
+        "imagen2": "playera2.png" ,
+        "imagen3": "playera3.png"
     },
     {
         "id": 3,
-        "nombre": "Classic",
+        "nombre": "Romboide",
         "talle": "XL, L",
         "descripción": "",
         "precio": "$12.000",
-        "imagen1": "2.png",
-        "imagen2": "1.png" ,
-        "imagen3": "3.png"
+        "imagen1": "romboide1.png",
+        "imagen2": "romboide2.png" ,
+        "imagen3": "romboide3.png"
     },
     {
         "id": 4,
-        "nombre": "Azulina",
+        "nombre": "Psicodelic",
         "talle": "XS",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen1": "psicodelic1.png",
+        "imagen2": "psicodelic2.png" ,
+        "imagen3": "psicodelic3.png"
     },
     {
         "id": 5,
-        "nombre": "Boreal",
+        "nombre": "Abecedario",
         "talle": "XL",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "2.png",
-        "imagen2": "1.png" ,
-        "imagen3": "3.png"
+        "imagen1": "abecedario1.png",
+        "imagen2": "abecedario2.png" ,
+        "imagen3": "abecedario3.png"
     },
     {
         "id": 6,
-        "nombre": "Psicodelic",
+        "nombre": "Picos",
         "talle": "M, L",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "3.png",
-        "imagen2": "2.png" ,
-        "imagen3": "1.png"
+        "imagen1": "pico1.png",
+        "imagen2": "pico2.png" ,
+        "imagen3": "pico3.png"
     },
     {
         "id": 7,
@@ -66,39 +66,39 @@
         "talle": "XL",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen1": "celest1.png",
+        "imagen2": "celest2.png" ,
+        "imagen3": "celest3.png"
     },
     {
         "id": 8,
-        "nombre": "Arabescos",
+        "nombre": "B/N combinado",
         "talle": "L",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "2.png",
-        "imagen2": "1.png" ,
-        "imagen3": "3.png"
+        "imagen1": "bn1.png",
+        "imagen2": "bn2.png" ,
+        "imagen3": "bn3.png"
     },
     {
         "id": 9,
-        "nombre": "Localizada",
+        "nombre": "Hojas turquesas",
         "talle": "M",
         "descripción": "Lorem Ipsum is simply dummy text of the printing ",
         "precio": "$12.000",
-        "imagen1": "3.png",
-        "imagen2": "2.png" ,
-        "imagen3": "1.png"
+        "imagen1": "flores1.png",
+        "imagen2": "flores2.png" ,
+        "imagen3": "flores3.png"
     },
     {
         "id": 10,
-        "nombre": "ReinaMora",
+        "nombre": "ReinaVerde",
         "talle": "S",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "1.png",
-        "imagen2": "2.png" ,
-        "imagen3": "3.png"
+        "imagen1": "verde1.png",
+        "imagen2": "verde2.png" ,
+        "imagen3": "verde3.png"
     },
     {
         "id": 11,
@@ -106,9 +106,9 @@
         "talle": "S",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "3.png",
-        "imagen2": "2.png" ,
-        "imagen3": "1.png"
+        "imagen1": "panal1.png",
+        "imagen2": "panal2.png" ,
+        "imagen3": "panal3.png"
     },
     {
         "id": 12,
@@ -116,8 +116,8 @@
         "talle": "S",
         "descripción": "Lorem Ipsum is simply dummy text of the printing",
         "precio": "$12.000",
-        "imagen1": "2.png",
-        "imagen2": "1.png" ,
-        "imagen3": "3.png"
+        "imagen1": "psicodelic1.png",
+        "imagen2": "psicodelic2.png" ,
+        "imagen3": "psicodelic3.png"
     }
 ]

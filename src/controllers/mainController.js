@@ -9,13 +9,13 @@ function getProducts() {
 
 const controller = {
      index: (req, res) => {
-         res.render(path.join(__dirname,'../views/index.ejs'))
+         res.render('index')
      },
      gallery: (req, res) => {
-        res.render(path.join(__dirname,'../views/gallery.ejs'))
+        res.render('gallery')
     },
     contact: (req, res) => {
-        res.render(path.join(__dirname,'../views/contactUs.ejs'))
+        res.render('contactUs')
     },
      products:  (req, res) => {
         const products = getProducts();
@@ -26,10 +26,10 @@ const controller = {
 		const products = getProducts();
 		const product = products.find(element => element.id == id);
 		res.render('chat', { product });
-	}
-    
-
-    
+	},
+    information:(req, res) => {
+        res.render('information')
+    }
     
 };
 
