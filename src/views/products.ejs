@@ -25,12 +25,21 @@
                             <span class="titulo-item">
                                 <%= product.nombre %>
                             </span>
-                            <a href="/<%= product.id %>"><img src="/img/catalog/<%= product.imagen1 %>" alt="" class="img-item"></a>
+                            <div class="image-container">
+                                <a href="/<%= product.id %>">
+                                    <img src="/img/catalog/<%= product.imagen1 %>" alt="" class="img-item">
+                                    <% if (product.stock===0) { %>
+                                        <div class="out-of-stock">Sin Stock</div>
+                                        <% } %>
+                                </a>
+                            </div>
+
                             <span class="precio-item">
                                 <%= product.precio %>
                             </span>
+
                             <button class="boton-item"> <a href="/<%= product.id %>"><i
-                                    class="fa-solid fa-arrow-right"></i>Ver detalle</a></button>
+                                        class="fa-solid fa-arrow-right"></i>Ver detalle</a></button>
                         </div>
                         <% }) %>
                 </div>

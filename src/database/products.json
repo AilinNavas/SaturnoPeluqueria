@@ -7,7 +7,8 @@
         "precio": "$12.000",
         "imagen1": "panal1.png",
         "imagen2": "panal2.png" ,
-        "imagen3": "panal3.png"
+        "imagen3": "panal3.png",
+        "stock": 1
         
     },
     {
@@ -18,7 +19,8 @@
         "precio": "$12.000",
         "imagen1": "playera1.png",
         "imagen2": "playera2.png" ,
-        "imagen3": "playera3.png"
+        "imagen3": "playera3.png",
+        "stock": 1
     },
     {
         "id": 3,
@@ -28,7 +30,8 @@
         "precio": "$12.000",
         "imagen1": "romboide1.png",
         "imagen2": "romboide2.png" ,
-        "imagen3": "romboide3.png"
+        "imagen3": "romboide3.png",
+        "stock": 1
     },
     {
         "id": 4,
@@ -38,7 +41,8 @@
         "precio": "$12.000",
         "imagen1": "psicodelic1.png",
         "imagen2": "psicodelic2.png" ,
-        "imagen3": "psicodelic3.png"
+        "imagen3": "psicodelic3.png",
+        "stock": 1
     },
     {
         "id": 5,
@@ -48,7 +52,9 @@
         "precio": "$12.000",
         "imagen1": "abecedario1.png",
         "imagen2": "abecedario2.png" ,
-        "imagen3": "abecedario3.png"
+        "imagen3": "abecedario3.png",
+        "stock": 2
+
     },
     {
         "id": 6,
@@ -58,7 +64,8 @@
         "precio": "$12.000",
         "imagen1": "pico1.png",
         "imagen2": "pico2.png" ,
-        "imagen3": "pico3.png"
+        "imagen3": "pico3.png",
+        "stock": 1
     },
     {
         "id": 7,
@@ -68,7 +75,8 @@
         "precio": "$12.000",
         "imagen1": "celest1.png",
         "imagen2": "celest2.png" ,
-        "imagen3": "celest3.png"
+        "imagen3": "celest3.png",
+        "stock": 1
     },
     {
         "id": 8,
@@ -78,7 +86,8 @@
         "precio": "$12.000",
         "imagen1": "bn1.png",
         "imagen2": "bn2.png" ,
-        "imagen3": "bn3.png"
+        "imagen3": "bn3.png",
+        "stock": 2
     },
     {
         "id": 9,
@@ -88,7 +97,8 @@
         "precio": "$12.000",
         "imagen1": "flores1.png",
         "imagen2": "flores2.png" ,
-        "imagen3": "flores3.png"
+        "imagen3": "flores3.png",
+        "stock": 0
     },
     {
         "id": 10,
@@ -98,26 +108,8 @@
         "precio": "$12.000",
         "imagen1": "verde1.png",
         "imagen2": "verde2.png" ,
-        "imagen3": "verde3.png"
-    },
-    {
-        "id": 11,
-        "nombre": "Panal",
-        "talle": "M",
-        "descripción": "Cálida y agradable",
-        "precio": "$12.000",
-        "imagen1": "panal1.png",
-        "imagen2": "panal2.png" ,
-        "imagen3": "panal3.png"
-    },
-    {
-        "id": 12,
-        "nombre": "Psicodelic",
-        "talle": "M",
-        "descripción": "Nocturna y llamativa",
-        "precio": "$12.000",
-        "imagen1": "psicodelic1.png",
-        "imagen2": "psicodelic2.png" ,
-        "imagen3": "psicodelic3.png"
+        "imagen3": "verde3.png",
+        "stock": 0
     }
+    
 ]
