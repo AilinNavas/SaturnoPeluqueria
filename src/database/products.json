@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "Panal",
+        "nombre": "Panal verde",
         "talle": "M",
         "descripción": "Cálida y agradable",
         "precio": "$12.000",
@@ -80,7 +80,7 @@
     },
     {
         "id": 8,
-        "nombre": "B/N urbano",
+        "nombre": "N/B urbano",
         "talle": "L , XL",
         "descripción": "Para toda ocasión",
         "precio": "$12.000",
@@ -98,7 +98,7 @@
         "imagen1": "flores1.png",
         "imagen2": "flores2.png" ,
         "imagen3": "flores3.png",
-        "stock": 0
+        "stock": 1
     },
     {
         "id": 10,
@@ -109,7 +109,130 @@
         "imagen1": "verde1.png",
         "imagen2": "verde2.png" ,
         "imagen3": "verde3.png",
-        "stock": 0
+        "stock": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Garabatos",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "garabatos.png",
+        "imagen2": "garabatos2.png" ,
+        "imagen3": "garabatos3.png",
+        "stock": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Amarilla",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "playeraamarilla.png",
+        "imagen2": "playeraamarilla2.png" ,
+        "imagen3": "playeramarilla3.png",
+        "stock": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Grafiti",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "grafiti.png",
+        "imagen2": "grafiti2.png" ,
+        "imagen3": "grafiti3.png",
+        "stock": 1
+    },
+    {
+        "id": 13,
+        "nombre": "B/N urbano",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "bnurbano.png",
+        "imagen2": "bnurbano2.png" ,
+        "imagen3": "bnurbano3.png",
+        "stock": 1
+    },
+    {
+        "id": 14,
+        "nombre": "Sombra lunar",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "manchas.png",
+        "imagen2": "manchas2.png" ,
+        "imagen3": "manchas3.png",
+        "stock": 1
+    },
+    {
+        "id": 15,
+        "nombre": "Panal azul",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "panalazul.png",
+        "imagen2": "panalazul2.png" ,
+        "imagen3": "panalazul3.png",
+        "stock": 1
+    },
+    {
+        "id": 16,
+        "nombre": "Infinito beigh",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "infinitobeigh.png",
+        "imagen2": "infinitobeigh2.png" ,
+        "imagen3": "infinitobeigh3.png",
+        "stock": 1
+    },
+    {
+        "id": 17,
+        "nombre": "Floral gris",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "floralgris.png",
+        "imagen2": "floralgris2.png" ,
+        "imagen3": "floralgris3.png",
+        "stock": 1
+    },
+    {
+        "id": 18,
+        "nombre": "Selvatica",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "selva.png",
+        "imagen2": "selva2.png" ,
+        "imagen3": "selva3.png",
+        "stock": 1
+    },
+    {
+        "id": 19,
+        "nombre": "Sombra azulada",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "sombraazul.png",
+        "imagen2": "sombraazul2.png" ,
+        "imagen3": "sombraazul3.png",
+        "stock": 1
+    },
+    {
+        "id": 20,
+        "nombre": "Arabescos",
+        "talle": "S",
+        "descripción": "Ochentosa y dinámica",
+        "precio": "$12.000",
+        "imagen1": "arabescos.png",
+        "imagen2": "arabescos2.png" ,
+        "imagen3": "arabescos3.png",
+        "stock": 1
     }
+
+
     
 ]
