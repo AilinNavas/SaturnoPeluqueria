@@ -123,7 +123,7 @@
         "stock": 1
     },
     {
-        "id": 11,
+        "id": 12,
         "nombre": "Amarilla",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -134,7 +134,7 @@
         "stock": 1
     },
     {
-        "id": 12,
+        "id": 13,
         "nombre": "Grafiti",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -145,7 +145,7 @@
         "stock": 1
     },
     {
-        "id": 13,
+        "id": 14,
         "nombre": "B/N urbano",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -156,7 +156,7 @@
         "stock": 1
     },
     {
-        "id": 14,
+        "id": 15,
         "nombre": "Sombra lunar",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -167,7 +167,7 @@
         "stock": 1
     },
     {
-        "id": 15,
+        "id": 16,
         "nombre": "Panal azul",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -178,7 +178,7 @@
         "stock": 1
     },
     {
-        "id": 16,
+        "id": 17,
         "nombre": "Infinito beigh",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -189,7 +189,7 @@
         "stock": 1
     },
     {
-        "id": 17,
+        "id": 18,
         "nombre": "Floral gris",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -200,7 +200,7 @@
         "stock": 1
     },
     {
-        "id": 18,
+        "id": 19,
         "nombre": "Selvatica",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -211,7 +211,7 @@
         "stock": 1
     },
     {
-        "id": 19,
+        "id": 12,
         "nombre": "Sombra azulada",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
@@ -222,7 +222,7 @@
         "stock": 1
     },
     {
-        "id": 20,
+        "id": 21,
         "nombre": "Arabescos",
         "talle": "S",
         "descripción": "Ochentosa y dinámica",
