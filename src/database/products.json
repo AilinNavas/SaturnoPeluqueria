@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "Panal verde",
+        "nombre": "Panal Verde",
         "talle": "M",
         "descripción": "Cálida y agradable",
         "precio": "$12.000",
@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "nombre": "Playera",
+        "nombre": "Playera Naranja",
         "talle": "L",
         "descripción": "Llamativa y alegre",
         "precio": "$12.000",
@@ -80,7 +80,7 @@
     },
     {
         "id": 8,
-        "nombre": "N/B urbano",
+        "nombre": "N/B Urbano",
         "talle": "L , XL",
         "descripción": "Para toda ocasión",
         "precio": "$12.000",
@@ -91,8 +91,8 @@
     },
     {
         "id": 9,
-        "nombre": "Hojas turquesas",
-        "talle": "L",
+        "nombre": "Hojas Turquesas",
+        "talle": "M",
         "descripción": "Ideal para la noche",
         "precio": "$12.000",
         "imagen1": "flores1.png",
@@ -102,8 +102,8 @@
     },
     {
         "id": 10,
-        "nombre": "Cosmogreen",
-        "talle": "S",
+        "nombre": "CosmoGreen",
+        "talle": "L",
         "descripción": "Ochentosa y dinámica",
         "precio": "$12.000",
         "imagen1": "verde1.png",
@@ -114,7 +114,7 @@
     {
         "id": 11,
         "nombre": "Garabatos",
-        "talle": "S",
+        "talle": "L",
         "descripción": "Estilosa y Descontracturada",
         "precio": "$12.000",
         "imagen1": "garabatos.png",
@@ -124,8 +124,8 @@
     },
     {
         "id": 12,
-        "nombre": "Amarilla",
-        "talle": "S",
+        "nombre": "Playera Amarilla",
+        "talle": "M",
         "descripción": "Relajada y Desenfadada",
         "precio": "$12.000",
         "imagen1": "playeraamarilla.png",
@@ -136,7 +136,7 @@
     {
         "id": 13,
         "nombre": "Grafiti",
-        "talle": "S",
+        "talle": "M",
         "descripción": "Vibrante y Energética",
         "precio": "$12.000",
         "imagen1": "grafiti.png",
@@ -146,7 +146,7 @@
     },
     {
         "id": 14,
-        "nombre": "B/N urbano",
+        "nombre": "B/N Urbano",
         "talle": "S",
         "descripción": "Casual y Confortable",
         "precio": "$12.000",
@@ -157,8 +157,8 @@
     },
     {
         "id": 15,
-        "nombre": "Sombra lunar",
-        "talle": "S",
+        "nombre": "Sombra Lunar",
+        "talle": "XL",
         "descripción": "Ochentosa y dinámica",
         "precio": "$12.000",
         "imagen1": "manchas.png",
@@ -168,18 +168,18 @@
     },
     {
         "id": 16,
-        "nombre": "Panal azul",
-        "talle": "S",
+        "nombre": "Panal Azul",
+        "talle": "M , XL",
         "descripción": "Vintage y Auténtica",
         "precio": "$12.000",
         "imagen1": "panalazul.png",
         "imagen2": "panalazul2.png" ,
         "imagen3": "panalazul3.png",
-        "stock": 1
+        "stock": 2
     },
     {
         "id": 17,
-        "nombre": "Infinito beigh",
+        "nombre": "Infinito Beigh",
         "talle": "S",
         "descripción": "Estilosa y Funcional",
         "precio": "$12.000",
@@ -190,8 +190,8 @@
     },
     {
         "id": 18,
-        "nombre": "Floral gris",
-        "talle": "S",
+        "nombre": "Floral Gris",
+        "talle": "L",
         "descripción": "Divertida y Original",
         "precio": "$12.000",
         "imagen1": "floralgris.png",
@@ -202,18 +202,18 @@
     {
         "id": 19,
         "nombre": "Selvatica",
-        "talle": "S",
+        "talle": "S , L",
         "descripción": "Fresca y Colorida",
         "precio": "$12.000",
         "imagen1": "selva.png",
         "imagen2": "selva2.png" ,
         "imagen3": "selva3.png",
-        "stock": 1
+        "stock": 2
     },
     {
-        "id": 12,
-        "nombre": "Sombra azulada",
-        "talle": "S",
+        "id": 20,
+        "nombre": "Sombra Azulada",
+        "talle": "M",
         "descripción": "Sofisticada y Contemporánea",
         "precio": "$12.000",
         "imagen1": "sombraazul.png",
@@ -224,18 +224,18 @@
     {
         "id": 21,
         "nombre": "Arabescos",
-        "talle": "S",
+        "talle": "M , XL",
         "descripción": "Elegante y y Auténtica",
         "precio": "$12.000",
         "imagen1": "arabescos.png",
         "imagen2": "arabescos2.png" ,
         "imagen3": "arabescos3.png",
-        "stock": 1
+        "stock": 2
     },
     {
         "id": 22,
-        "nombre": "Cosmogrey",
-        "talle": "S",
+        "nombre": "CosmoGrey",
+        "talle": "XL",
         "descripción": "Ochentosa y dinámica",
         "precio": "$12.000",
         "imagen1": "cosmogrey.png",
@@ -246,7 +246,7 @@
     {
         "id": 23,
         "nombre": "Fotónica",
-        "talle": "S",
+        "talle": "M",
         "descripción": "Moderna y Versátil",
         "precio": "$12.000",
         "imagen1": "fotoshop.png",
@@ -257,7 +257,7 @@
     {
         "id": 24,
         "nombre": "Ruptura",
-        "talle": "S",
+        "talle": "L",
         "descripción": "Elegante y atemporal",
         "precio": "$12.000",
         "imagen1": "bnegro.png",
