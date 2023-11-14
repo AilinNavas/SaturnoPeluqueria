@@ -8,7 +8,8 @@
         "imagen1": "panal1.png",
         "imagen2": "panal2.png" ,
         "imagen3": "panal3.png",
-        "stock": 1
+        "stock": 1, 
+        "descuento": 0
         
     },
     {
@@ -20,18 +21,20 @@
         "imagen1": "playera1.png",
         "imagen2": "playera2.png" ,
         "imagen3": "playera3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 3,
         "nombre": "Infinito",
         "talle": "L",
         "descripción": "Original y disruptiva",
-        "precio": "$15.000",
+        "precio": "$13.500",
         "imagen1": "romboide1.png",
         "imagen2": "romboide2.png" ,
         "imagen3": "romboide3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 1
     },
     {
         "id": 4,
@@ -42,18 +45,20 @@
         "imagen1": "psicodelic1.png",
         "imagen2": "psicodelic2.png" ,
         "imagen3": "psicodelic3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 5,
         "nombre": "Abecedario",
         "talle": "M , XL",
         "descripción": "Estilo relajado",
-        "precio": "$15.000",
+        "precio": "$13.500",
         "imagen1": "abecedario1.png",
         "imagen2": "abecedario2.png" ,
         "imagen3": "abecedario3.png",
-        "stock": 2
+        "stock": 2,
+        "descuento": 1
 
     },
     {
@@ -65,7 +70,8 @@
         "imagen1": "pico1.png",
         "imagen2": "pico2.png" ,
         "imagen3": "pico3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 7,
@@ -76,7 +82,8 @@
         "imagen1": "celest1.png",
         "imagen2": "celest2.png" ,
         "imagen3": "celest3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 8,
@@ -87,18 +94,20 @@
         "imagen1": "bn1.png",
         "imagen2": "bn2.png" ,
         "imagen3": "bn3.png",
-        "stock": 2
+        "stock": 2,
+        "descuento": 0
     },
     {
         "id": 9,
         "nombre": "Hojas Turquesas",
         "talle": "M",
         "descripción": "Ideal para la noche",
-        "precio": "$15.000",
+        "precio": "$13.500",
         "imagen1": "flores1.png",
         "imagen2": "flores2.png" ,
         "imagen3": "flores3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 1
     },
     {
         "id": 10,
@@ -109,7 +118,8 @@
         "imagen1": "verde1.png",
         "imagen2": "verde2.png" ,
         "imagen3": "verde3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 11,
@@ -120,18 +130,20 @@
         "imagen1": "garabatos.png",
         "imagen2": "garabatos2.png" ,
         "imagen3": "garabatos3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 12,
         "nombre": "Playera Amarilla",
         "talle": "M",
         "descripción": "Relajada y Desenfadada",
-        "precio": "$15.000",
+        "precio": "$13.500",
         "imagen1": "playeraamarilla.png",
         "imagen2": "playeraamarilla2.png" ,
         "imagen3": "playeramarilla3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 1
     },
     {
         "id": 13,
@@ -142,7 +154,8 @@
         "imagen1": "grafiti.png",
         "imagen2": "grafiti2.png" ,
         "imagen3": "grafiti3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 14,
@@ -153,7 +166,8 @@
         "imagen1": "bnurbano.png",
         "imagen2": "bnurbano2.png" ,
         "imagen3": "bnurbano3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 15,
@@ -164,7 +178,8 @@
         "imagen1": "manchas.png",
         "imagen2": "manchas2.png" ,
         "imagen3": "manchas3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 16,
@@ -175,7 +190,8 @@
         "imagen1": "panalazul.png",
         "imagen2": "panalazul2.png" ,
         "imagen3": "panalazul3.png",
-        "stock": 2
+        "stock": 2,
+        "descuento": 0
     },
     {
         "id": 17,
@@ -186,7 +202,8 @@
         "imagen1": "infinitobeigh.png",
         "imagen2": "infinitobeigh2.png" ,
         "imagen3": "infinitobeigh3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 18,
@@ -197,18 +214,20 @@
         "imagen1": "floralgris.png",
         "imagen2": "floralgris2.png" ,
         "imagen3": "floralgris3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 19,
         "nombre": "Selvatica",
         "talle": "S , L",
         "descripción": "Fresca y Colorida",
-        "precio": "$15.000",
+        "precio": "$13.500",
         "imagen1": "selva.png",
         "imagen2": "selva2.png" ,
         "imagen3": "selva3.png",
-        "stock": 2
+        "stock": 2,
+        "descuento": 0
     },
     {
         "id": 20,
@@ -219,7 +238,8 @@
         "imagen1": "sombraazul.png",
         "imagen2": "sombraazul2.png" ,
         "imagen3": "sombraazul3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 21,
@@ -230,7 +250,8 @@
         "imagen1": "arabescos.png",
         "imagen2": "arabescos2.png" ,
         "imagen3": "arabescos3.png",
-        "stock": 2
+        "stock": 2,
+        "descuento": 0
     },
     {
         "id": 22,
@@ -241,18 +262,20 @@
         "imagen1": "cosmogrey.png",
         "imagen2": "cosmogrey2.png" ,
         "imagen3": "cosmogrey.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     },
     {
         "id": 23,
         "nombre": "Fotónica",
         "talle": "M",
         "descripción": "Moderna y Versátil",
-        "precio": "$15.000",
+        "precio": "$13.500",
         "imagen1": "fotoshop.png",
         "imagen2": "fotoshop2.png" ,
         "imagen3": "fotoshop.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 1 
     },
     {
         "id": 24,
@@ -263,7 +286,8 @@
         "imagen1": "bnegro.png",
         "imagen2": "bnegro2.png" ,
         "imagen3": "bnegro3.png",
-        "stock": 1
+        "stock": 1,
+        "descuento": 0
     }
 
 

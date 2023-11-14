@@ -30,6 +30,11 @@ body{
   padding: 7px;
   font-size: 12px;
 }
+.off {
+  background-color: forestgreen;
+  font-weight: bold;
+  border: solid 2px yellow;
+}
 
 .product-detail {
   display: flex;

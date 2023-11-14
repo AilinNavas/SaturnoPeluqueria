@@ -31,6 +31,9 @@
                                     <% if (product.stock===0) { %>
                                         <div class="out-of-stock">Sin Stock</div>
                                         <% } %>
+                                        <% if (product.descuento===1) { %>
+                                            <div class="out-of-stock off"> 10% OFF</div>
+                                            <% } %>
                                 </a>
                             </div>
 
