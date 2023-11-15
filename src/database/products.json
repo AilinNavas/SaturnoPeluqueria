@@ -53,12 +53,12 @@
         "nombre": "Abecedario",
         "talle": "M , XL",
         "descripción": "Estilo relajado",
-        "precio": "$13.500",
+        "precio": "$15.000",
         "imagen1": "abecedario1.png",
         "imagen2": "abecedario2.png" ,
         "imagen3": "abecedario3.png",
         "stock": 2,
-        "descuento": 1
+        "descuento": 0
 
     },
     {
